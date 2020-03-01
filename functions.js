@@ -80,6 +80,11 @@ exports.noMember = (message) => {
         .then(message => message.delete(3000));
 };
 
+exports.reply = (message, text) => {
+    message.reply(text)
+        .then(message => message.delete(3000));
+};
+
 exports.errorMessage = (message, text) => {
     message.reply(text)
         .then(msg => {
