@@ -80,7 +80,11 @@ exports.noMember = (message) => {
         .then(message => message.delete(3000));
 };
 
-exports.reply = (message, text) => {
+exports.errorMessage = (message, text) => {
     message.reply(text)
-        .then(message => message.delete(3000));
-};
+        .then(msg => {
+            msg.delete(3000);
+            if (message.guild)
+                message.delete(3000);
+        });
+},
