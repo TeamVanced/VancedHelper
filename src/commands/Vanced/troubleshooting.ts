@@ -96,7 +96,7 @@ const callback = async (msg: Message, args: string[]) => {
 
 export const command: Command = {
 	aliases: ['troubleshoot', 'ts'],
-	description: 'Troubleshoot Vanced issues. For your own issues, consult your therapist ;)',
+	description: 'Troubleshoot Vanced issues. For your own issues, consult your therapist ;).',
 	usage: '[Page]',
 	devOnly: false,
 	guildOnly: false,
