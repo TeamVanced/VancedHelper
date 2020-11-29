@@ -35,21 +35,13 @@ const pages = [
 		.setTitle('Notifications')
 		.setDescription(
 			stripIndents`
-				Sometimes you may not get notifications from your favourite YouTubers.
-				To solve this issue:
-				:one: Go to Vanced Settings
-				:two: tap on MicroG settings
-				:three: go to \`Google Cloud Messaging > YouTube Vanced\` and set \`ping\` to 60 seconds, then set it back.
-				If you still don't get any notifications, disable battery optimisation for both MicroG and Vanced (see \`${config.defaultPrefix}troubleshoot 8\` for a detailed guide)`
-		),
+				Sometimes you may not recieve notifications from Vanced, watch this guide for a solution to that issue. https://youtu.be/Q-5YFmFWVok`
 
 	embed()
 		.setTitle('No connection/Vanced broken after password change')
 		.setDescription(
 			stripIndents`
-			Go to \`Device Settings > Accounts\`, select the account with the <:vancedmicrog:739533000609628191> (or <:oldgacc:679434987560370188>) logo and remove it. Then simply add it back via Vanced.
-			If the account isnt there then simply reinstall Vanced MicroG via the manager`
-		),
+			Watch this guide for the solution to the error https://youtu.be/S5sTXRTrD5Y`
 
 	embed()
 		.addFields([
