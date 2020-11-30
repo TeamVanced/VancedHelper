@@ -35,13 +35,15 @@ const pages = [
 		.setTitle('Notifications')
 		.setDescription(
 			stripIndents`
-				Sometimes you may not recieve notifications from Vanced, watch this guide for a solution to that issue. https://youtu.be/Q-5YFmFWVok`
+			Sometimes you may not recieve notifications from Vanced, watch this guide for a solution to that issue. https://youtu.be/Q-5YFmFWVok`
+		),
 
 	embed()
 		.setTitle('No connection/Vanced broken after password change')
 		.setDescription(
 			stripIndents`
 			Watch this guide for the solution to the error https://youtu.be/S5sTXRTrD5Y`
+		),
 
 	embed()
 		.addFields([
